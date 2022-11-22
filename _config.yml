@@ -1,82 +1,26 @@
-# Site Settings
-lang: en
-title: goatsportscards
-tagline: analytics guy chasing high end sports cards
-email: domenicfayad@gmail.com
-description: >
-  Portfolio site for goatsportscards, made for Jekyll and GitHub pages websites
-baseurl: ""
-url: "https://www.goatsportscards.com"
-permalink: pretty
-favicon: favicon.png
-#gh_sponsor: chrisrhymes
-#hide_share_buttons: true
-#theme_color: '#ffffff'
-#fixed_navbar: top
-#direction: one of <ltr, rtl, auto>, default: ltr
+title:              goat.sportscards
+email:              domenicfayad@gmail.com
+description:        Analytics guy chasing high end sports cards
+#author:             Start Bootstrap
+#baseurl:            "/startbootstrap-clean-blog-jekyll"
+url:                "https://goatsportscards.github.io"
 
-paginate: 5
-paginate_path: "/blog/page:num"
+# Social Profiles
+twitter_username:   domenic.fayad
+github_username:    dmf95
+#facebook_username:  StartBootstrap
+instagram_username:  goat.sportscards
+linkedin_username:
 
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  shortname: csrhymes
+# Add your google-analytics ID here to activate google analytics
+#google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
 
-
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
   - jekyll-feed
+  - jekyll-paginate
   - jekyll-seo-tag
-  - kramdown-parser-gfm
-  - jekyll-redirect-from
-
-exclude:
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-livereload: true
-
-sass:
-  style: compressed
-  source_dir: _sass
-
-#google_analytics: UA-code-here
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      show_sidebar: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      author: "C.S. Rhymes"
-      layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
-
-markdown: kramdown
-highlighter: rouge
-
-footer_menu: example_footer_menu
-
-collections:
-  products:
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

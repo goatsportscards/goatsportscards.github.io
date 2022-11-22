@@ -1,28 +1,37 @@
 {
-  "name": "vonge-jekyll-bookshop-template",
-  "description": "Vonge template for CloudCannon",
-  "scripts": {
-    "bookshop-dev": "bookshop-browser -p 6086 -b ./components",
-    "bookshop-hosted": "bookshop-browser -b ./components -o site/js/bookshop-hosted.js",
-    "bookshop-live": "bookshop-live -b ./components -o site/_cloudcannon/bookshop-live.js",
-    "jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle exec jekyll serve --source site --port 6060 --trace --unpublished",
-    "start": "run-p bookshop-dev jekyll",
-    "install-jekyll": "BUNDLE_GEMFILE=site/Gemfile bundle install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bglw/bookshop-example.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bglw/bookshop-example/issues"
-  },
-  "homepage": "https://github.com/bglw/bookshop-example#readme",
-  "devDependencies": {
-    "@bookshop/browser": "^2.2.2",
-    "@bookshop/jekyll-engine": "^2.2.2",
-    "@bookshop/live": "^2.2.2",
-    "npm-run-all": "^4.1.5"
-  }
+    "title": "Clean Blog Jekyll",
+    "name": "startbootstrap-clean-blog-jekyll",
+    "version": "4.0.12",
+    "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://startbootstrap.com/themes/clean-blog-jekyll",
+    "bugs": {
+        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.6.0",
+        "font-awesome": "4.7.0",
+        "jquery": "3.6.0",
+        "startbootstrap-clean-blog": "5.1.0"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.14"
+    }
 }
