@@ -6,20 +6,36 @@ background: '/img/bg-hockey4.jpg'
 ---
 
 
-## Welcome, fellow sports fanatic!
+## The collector
 
-My name is Domenic Fayad and Goat.SportsCards is the the convergence of my two favourite hobbies: analytics and sports cards. 
+My name is Domenic Fayad, AKA `goat.sportscards`.
 
 <img class="img-fluid" src="img/dom.jpg" alt="Demo Image">
 <span class="caption text-muted">Domenic Fayad.</span>
 
-My goal is to grow this amazing hobby and to empower collectors and investors from all places to make data-driven decisions.     
 
-## A Collector First
+## How it started
 
-The first sports cards pack that I ever ripped was a pack of 2005-06 Upper Deck Black Diamond. Even though I had been collecting Pokemon since the early 2000s, my attention shifted to hockey cards after NHL rookie superstars Sidney Crosby & Alexander Ovechkin took the league by storm after the 2004 lockout year. 
+The first pack that I ever ripped was a pack of 2005-06 Upper Deck Black Diamond. 
 
-Nothing will ever replace the nostalgic feeling of opening up a pack of cards. However, these days I prefer buying what I'm after.
+Even though I had been collecting Pokemon since the early 2000s, my attention quickly shifted to hockey. 
+
+Like many others, the 2005-06 NHL season reeled me in. Most of that is credit to rookie phenoms Sidney Crosby & Alexander Ovechkin who took the league by storm. 
+
+During that season, I was hooked on hockey. I was hooked on the hobby of collecting.
+
+These days I prefer to buy the card I'm after, but every now and then I give into the nostalgic craving of opening up a pack of cards.
+
+## What I collect
+
+I collect across a few sports, but my clear preference is Hockey. 
+
+Like most Canadians, I have a strong connection with the sport since its what I grew up watching. I still get chills thinking of the "Golden Goal" at the Vancouver 2010 Olympic Winter Games.
+
+<img class="img-fluid" src="img/golden-goal.jpg" alt="Demo Image">
+<span class="caption text-muted">Sidney Crosby's gold-medal winning goal at the Vancouver 2010 Olympics.</span>
+
+My collection has become specialized over the year. These days, I collect high-end hockey with a focus on short-printed rookie cards of generational players. To name a few, McDavid, Crosby, Ovechkin.
 
 ## Let's Connect!
 Feel free to reach out.
@@ -28,3 +44,6 @@ Feel free to reach out.
 * Instagram: [@goatsportscards](https://www.instagram.com/goat.sportscards/?hl=en)
 * eBay: [@goat.sportscards](https://www.ebay.com/usr/goat.sportscards)
 
+
+<figure data-behold-id="RQ2OsNjry7NSCDP3nNTa"></figure>
+<script src="https://w.behold.so/widget.js" type="module"></script>
